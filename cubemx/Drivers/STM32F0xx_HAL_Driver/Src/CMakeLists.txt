@@ -1,0 +1,20 @@
+target_sources(cubemx PRIVATE
+	stm32f0xx_hal.c
+	stm32f0xx_hal_can.c
+	stm32f0xx_hal_cortex.c
+	stm32f0xx_hal_dma.c
+	stm32f0xx_hal_exti.c
+	stm32f0xx_hal_flash.c
+	stm32f0xx_hal_flash_ex.c
+	stm32f0xx_hal_gpio.c
+	stm32f0xx_hal_i2c.c
+	stm32f0xx_hal_i2c_ex.c
+	stm32f0xx_hal_pwr.c
+	stm32f0xx_hal_pwr_ex.c
+	stm32f0xx_hal_rcc.c
+	stm32f0xx_hal_rcc_ex.c
+	stm32f0xx_hal_tim.c
+	stm32f0xx_hal_tim_ex.c
+	stm32f0xx_hal_uart.c
+	stm32f0xx_hal_uart_ex.c
+)
